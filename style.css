@@ -1,0 +1,109 @@
+#nav {
+  color: purple;
+  text-align: center;
+  padding-top: 2em;
+  padding-bottom: 1em;
+  display:flex;
+  justify-content: center;
+
+}
+#body {
+  margin: 40px;
+  background-color: rgb(227, 234, 241);
+  font-family: fantasy;
+  font-size: medium;
+}
+#firstheading {
+  color: tomato;
+  background-color: rgb(124, 245, 245);
+  border: 1px solid;
+  margin-bottom: 1em;
+  margin-left: 2.3em;
+  margin-right: 2.3em;
+  font-size: 4em;
+  text-align: center;
+  font-family: "Permanent Marker", cursive;
+}
+#video {
+  margin-bottom: 3em;
+}
+#firstletter {
+  font-size: 5em;
+  line-height: 60px;
+  float: left;
+  padding: 8px;
+}
+#main {
+  font-size: large;
+}
+h2 {
+  color: tomato;
+  /* padding-bottom: 1em;
+  padding-top: 1em; */
+  padding: 0.5em 1em;
+
+  text-align: center;
+
+  /* background-color: rgb(124, 245, 245);
+  border: 1px solid; */
+  /* margin-bottom: 2em; */
+  font-family: "Sedgwick Ave", cursive;
+
+  /* font-size: 3em; */
+}
+/* #namelink {
+  display: flex;
+  align-items: flex-end;
+} */
+#paralink {
+  color: tomato;
+}
+#paralink a {
+  color: tomato;
+}
+
+#paralink a:hover {
+  color: rgb(184, 32, 184);
+}
+#contactbody {
+  background-color: slategrey;
+}
+#contacth1 {
+  color: tomato;
+  font-family: fantasy;
+  margin-top: 1.5em;
+}
+#aboutheader {
+  color: rgb(14, 173, 160);
+  font-family: fantasy;
+  margin-top: 1.5em;
+}
+#aboutbody {
+  background-color: rgb(255, 193, 182);
+}
+#aboutnav {
+  color: darkorchid;
+  text-align: center;
+  padding-top: 1.5em;
+}
+#contactnav {
+  color: darkviolet;
+  text-align: center;
+  margin-top: 1em;
+}
+#hedgehogvideo {
+  display: flex;
+  justify-content: center;
+}
+.species {
+  font-size: 0.5em;
+}
+
+#diet {
+  
+  display: flex;
+  flex-direction: row;
+  
+  
+  
+}

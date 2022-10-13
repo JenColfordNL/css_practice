@@ -1,0 +1,106 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.flex-container {
+  display: flex;
+}
+.body {
+  display: flex;
+  background-color: rgb(243, 243, 243);
+  margin-left: 2em;
+  margin-right: 2em;
+}
+.sumbody {
+  background-color: rgb(243, 243, 243);
+  margin-left: 2em;
+  margin-right: 2em;
+}
+#sumnav {
+  text-align: center;
+  padding-top: 2em;
+}
+
+#nav {
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: 2em;
+  /* position: sticky;
+  top: 0px; */
+}
+h1 {
+  color: rgb(255, 58, 51);
+  text-align: center;
+  padding-bottom: 2em;
+  padding-top: 1em;
+}
+
+.video {
+  display: flex;
+
+  /* justify-content: space-between; */
+  width: 20em;
+  height: 20em;
+  padding-bottom: 2em;
+}
+#hedgehogvideo {
+  display: flex;
+  justify-content: center;
+}
+
+h2 {
+  color: tomato;
+  text-align: center;
+}
+#firstpara {
+  margin-top: 2em;
+}
+/* .breeding {
+  position: relative;
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+} */
+.box {
+  /* position: relative;
+  max-width: 450px;
+  margin: 10px;
+  padding: 15px; */
+  display: flex;
+  justify-content: center;
+  /* text-align: end; */
+}
+.babypic {
+  margin-right: 0.8em;
+  margin-bottom: 2em;
+  display: flex;
+  align-items: flex-start;
+  max-width: 400;
+  max-height: 200px;
+}
+.dietwords {
+  display: flex;
+  /* justify-content: space-evenly; */
+}
+/* .babypic {
+  display: flex;
+  justify-content: flex-end;
+  width: 200px;
+  height: 200px;
+} */
+.listheading {
+  color: tomato;
+}
+.piccontainer {
+  width: 300px;
+  height: 200px;
+  background-image: url(/images/hedgehotQAP.webp);
+  background-size: contain;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3em;
+  margin-top: 1em;
+}
